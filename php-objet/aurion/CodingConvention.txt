@@ -1,0 +1,38 @@
+CODING CONVENTION
+
+NAMING CONVENTION
+All names used in this code should be in English
+Variable names should be named after the characters of the Super Smash Bros franchise. Melee, Brawl and WiiU accepted.
+Class names should be named after the characters of the Super Smash Bros franchise as well. All letters capitalized. They are important, after all :)
+Attributes should be named like this : first letter lowercase, with every internal word's first letter capitalized
+Method names should contain a verb, with the first letter lowercase, and each internal word should have its first letter capitalized
+Private attributes and methods of a class should start with 'uwu_'
+Protected attributes and methods of a class should end with '_topkek'
+Public attributes and methods of a class should start with 'o3o_'
+
+CLASS DECLARATION
+Each class should have a block comment above their declaration, specifying the characteristics of the class
+Start every class declaration with a comment saying "HERE COMES A NEW CHALLENGER"
+
+VISIBILITY
+Every class, attribute and method should have their visibility specified. Else we can't see them.
+
+INDENTATION
+The indentation unit should be four spaces.
+
+COMMENTS
+Block comments (/*  */) should be used outside of the code, between classes and/or functions to add a description.
+Block comments should be stylish. Your creativity and artistic touch should be in there. Make your comments shine!
+Inline comments (//) should be used within the code to add a short description and/or to comment a line of code
+All kind of comments should always end with a smiley. If they don't, they're not good enough.
+
+ADDITIONAL CONVENTIONS
+The size of a block of code (method, function, class declaration) should not be more than 42 lines
+Every opening bracket '{' should be after the corresponding line (class declaration, method/function declaration, condition, loop)
+Every ending bracket '}' should be alone in its line
+For example : 
+for($i = 0; $i<10, $i++){
+	if($i == 5){
+		return $i;
+	}
+}
